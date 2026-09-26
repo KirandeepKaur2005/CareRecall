@@ -1,16 +1,29 @@
-# React + Vite
+# CareRecall
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Your doctor's instructions, remembered.**
 
-Currently, two official plugins are available:
+After a consultation, it is easy to forget a medicine, dosage, test, appointment, or something the doctor specifically asked you to do.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**CareRecall turns the doctor's consultation into an always-available care assistant.**
 
-## React Compiler
+### What CareRecall does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎙️ **Just record the consultation**
+CareRecall listens to the doctor's voice and automatically turns the conversation into a structured care plan.
 
-## Expanding the ESLint configuration
+🤖 **Your doctor's assistant, available 24/7**
+Forgot what the doctor said? Ask CareRecall about the consultation whenever you need to.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⏰ **Reminders when you need them**
+CareRecall identifies medicines, tests, and appointments and lets you set reminders so important instructions don't get forgotten.
+
+❤️ **Built for patients who need it most**
+For elderly patients, patients managing complex conditions, or anyone who may struggle to remember everything discussed during an appointment, CareRecall keeps those instructions accessible after they leave the clinic.
+
+### How it works
+
+**Doctor–Patient Consultation → Voice Transcription → Care Plan → AI Assistant + Reminders**
+
+### Tech Stack
+
+React · Vite · Tailwind CSS · Flask · Gemini · Groq Whisper · RAG
